@@ -20,12 +20,17 @@
     </header>
     <main>
         <h1>Inicia sesión</h1>
-        <div class="input-container">
-            <input class="input" type="email" placeholder="Email o número teléfono"id="email" autocomplete="email" required>
-           
-        </div>
-        <div class="input-container"><input class="input" type="password" placeholder="Contraseña" id="password" autocomplete="password" required>
-        </div>
+
+        
+        <form class="input-container">
+            <input type="text" autocomplete="email" required>
+           <label>Email o número de teléfono</label>
+        </form>
+
+
+        <form class="input-container"><input type="password" autocomplete="password" required>
+            <label for="">Contraseña</label>
+        </form>
         <button class="login-button">Iniciar sesión</button>
         <div class="help-and-remember-container">
             <label>
