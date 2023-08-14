@@ -29,45 +29,33 @@
       </nav>
     </header>
     <main>
-      <h1>Inicia sesión</h1>
-      <div class="input-container">
-        <input
-          class="input"
-          type="email"
-          placeholder="Email o número teléfono"
-          id="email"
-          autocomplete="email"
-          required
-        />
-      </div>
-      <div class="input-container">
-        <input
-          class="input"
-          type="password"
-          placeholder="Contraseña"
-          id="password"
-          autocomplete="password"
-          required
-        />
-      </div>
-      <button class="login-button">Iniciar sesión</button>
-      <div class="help-and-remember-container">
-        <label>
-          <input type="checkbox" id="cbox1" value="first_checkbox" />
-          Recuérdame</label
-        >
-        <div class="help-textmain">
-          <a class="help-text" href="#">¿Necesitas ayuda?</a>
+        <h1>Inicia sesión</h1>
+
+        
+        <form class="input-container">
+            <input type="text" autocomplete="email" required>
+           <label>Email o número de teléfono</label>
+        </form>
+
+
+        <form class="input-container"><input type="password" autocomplete="password" required>
+            <label for="">Contraseña</label>
+        </form>
+        <button class="login-button">Iniciar sesión</button>
+        <div class="help-and-remember-container">
+            <label>
+            <input type="checkbox" id="cbox1" value="first_checkbox" /> Recuérdame</label>
+            <div class="help-textmain">
+            <a class="help-text" href="#">¿Necesitas ayuda?</a>
+        </div>
         </div>
       </div>
 
-      <p class="fistTime-text">
-        ¿Primera vez en Netflix?<a href=""> Suscríbite ahora</a>
-      </p>
-      <p class="captcha-text">
-        Esta página está protegida por Google reCAPTCHA para comprobar que no
-        eres un robot.<a href=""> Más info</a>
-      </p>
+        <p class="fistTime-text"> ¿Primera vez en Netflix?<a href=""> Suscríbite ahora</a> </p>
+        <p class="captcha-text">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. <a
+                href="">Más info</a></p>
+
+
     </main>
     <footer>
       <p>¿Preguntas? Llama al <a href="">0800 345 1593</a></p>
