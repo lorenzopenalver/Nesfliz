@@ -80,7 +80,46 @@ main h1{
     transition: all 0.3s ease;
 }
 
+.checkbox{
+    display: none;
+}
+.checkbox-container span{
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(121, 121, 121);
+    transition: all 0.3s ease;
 
+}
+.checkbox-container{
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.checkbox-container p{
+    padding-left: 5px;
+}
+.checkbox-container input:checked ~ span{
+    box-shadow: 0 0 5px 5px gray;
+}
+span:after{
+    content: "";
+    position: absolute;
+    border: solid white;
+    border-width: 0em  0.3em 0.3em 0;
+    transform: rotate(45deg);
+    width: 0.50em;
+    height: 1em;
+    left: 0.3em;
+    top: 0em;
+    opacity: 0;
+    transition: 0.4 ease;
+}
+.checkbox-container input:checked ~ span:after{
+    opacity: 1;
+}
 
 
 
