@@ -14,8 +14,9 @@ header nav img{
   main{
     background-color: rgba(0, 0, 0, 0.736);
     padding: 60px 68px 40px 68px;
-    max-width: 450px;
+    max-width: 460px;
     border-radius: 5px;
+    margin-bottom: 75px;
   }
   footer{
     background-color: rgba(0, 0, 0, 0.733);

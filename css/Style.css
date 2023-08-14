@@ -84,8 +84,9 @@ main h1{
 .help-text{
     display: flex;
     text-decoration: none;
-    color: var(--letter);
+    color: #b3b3b3;
     font-size: 1.3rem;
+    
 }
 .help-text:hover {
     text-decoration: underline;
@@ -142,11 +143,11 @@ footer p{
     color:var(--letter);
      margin-left: 20px;
 }
-p a {
+footer p a {
     color: var(--gray2);
     text-decoration: none;
 }
-p a:hover {
+footer p a:hover {
     text-decoration: underline;
 }
 footer ul{
