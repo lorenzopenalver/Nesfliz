@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="/css/desktop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/pngwing.com (2).png" type="image/x-icon">
     <title>Document</title>
 </head>
+
 <body>
+    <header>
+        <nav>
+            <img class="img-netfli" src="/img/pngwing.com (1).png" alt="img de nefli">
+        </nav>
+    </header>
+    <main>
+        <h1>Inicia sesión</h1>
+        <div class="input-container">
+            <input class="input" type="email" placeholder="Email o número teléfono"id="email" autocomplete="email" required>
+           
+        </div>
+        <div class="input-container"><input class="input" type="password" placeholder="Contraseña" id="password" autocomplete="password" required>
+        </div>
+        <button class="login-button">Iniciar sesión</button>
+        <div class="help-and-remember-container">
+            <label>
+            <input type="checkbox" id="cbox1" value="first_checkbox" /> Recuérdame</label>
+            <div class="help-textmain">
+            <a class="help-text" href="#">¿Necesitas ayuda?</a>
+        </div>
+        </div>
+
+        <p class="fistTime-text"> ¿Primera vez en Netflix?<a href=""> Suscríbite ahora</a> </p>
+        <p class="captcha-text">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot.<a
+                href="">Más info</a></p>
 
 
-    
-    
+    </main>
+    <footer>
+        <p>¿Preguntas? Llama al <a href="">0800 345 1593</a> </p>
+        <section>
+            <ul>
+                <li><a href="">Preguntas frecuentes</a></li>
+                <li><a href="">Términos de uso</a></li>
+                <li> <a href="">Preferencias de cookies</a></li>
+                <li> <a href="">Centro de ayuda</a></li>
+                <li> <a href="">Privacidad</a></li>
+                <li> <a href="">Informacion corporativa</a></li>
+            </ul>
+        </section>
+        <div class="languages-container">
+            <img class="world-image" src="./img/005-ethernet-1.png" alt="">
+            <select class="language-selector" name="select">
+             
+                <option value="value1">Español</option>
+                <option value="value2" selected>English</option>
+            </select>
+        </div>
+        
+
+    </footer>
+
 </body>
+
 </html>
